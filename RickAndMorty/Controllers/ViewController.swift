@@ -4,6 +4,8 @@
 //
 //  Created by Pavel Bohomolnyi on 25/12/2023.
 //
+//  https://rickandmortyapi.com/
+//
 
 import UIKit
 
@@ -11,7 +13,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        view.backgroundColor = .red
     }
 
 
