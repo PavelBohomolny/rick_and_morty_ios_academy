@@ -1,5 +1,5 @@
 //
-//  CharacterViewController.swift
+//  RMLocationViewController.swift
 //  RickAndMorty
 //
 //  Created by Pavel Bohomolnyi on 25/12/2023.
@@ -7,13 +7,14 @@
 
 import UIKit
 
-final class CharacterViewController: UIViewController {
+/// Controller to show and search for Location
+final class RMLocationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         view.backgroundColor = .systemBackground
-        title = "Characters"
+        title = "Locations"
     }
 
 }
