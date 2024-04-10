@@ -26,6 +26,7 @@
 		865D7A512BC6AB09006F4919 /* RMSingleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D7A502BC6AB09006F4919 /* RMSingleLocation.swift */; };
 		865D7A532BC6ADD5006F4919 /* RMCharacterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D7A522BC6ADD5006F4919 /* RMCharacterStatus.swift */; };
 		865D7A552BC6AE07006F4919 /* RMCharacterGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D7A542BC6AE07006F4919 /* RMCharacterGender.swift */; };
+		865D7A592BC6D5F9006F4919 /* RMGetAllCharactersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D7A582BC6D5F9006F4919 /* RMGetAllCharactersResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		865D7A502BC6AB09006F4919 /* RMSingleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSingleLocation.swift; sourceTree = "<group>"; };
 		865D7A522BC6ADD5006F4919 /* RMCharacterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterStatus.swift; sourceTree = "<group>"; };
 		865D7A542BC6AE07006F4919 /* RMCharacterGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterGender.swift; sourceTree = "<group>"; };
+		865D7A582BC6D5F9006F4919 /* RMGetAllCharactersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGetAllCharactersResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,13 +118,8 @@
 		863DCE232B39E5B200BF21BD /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				863DCE242B39E5C300BF21BD /* RMLocation.swift */,
-				863DCE2A2B39E65300BF21BD /* RMCharacter.swift */,
-				863DCE2C2B39E65C00BF21BD /* RMEpisode.swift */,
-				865D7A4E2BC6AACF006F4919 /* RMOrigin.swift */,
-				865D7A502BC6AB09006F4919 /* RMSingleLocation.swift */,
-				865D7A522BC6ADD5006F4919 /* RMCharacterStatus.swift */,
-				865D7A542BC6AE07006F4919 /* RMCharacterGender.swift */,
+				865D7A572BC6D5D7006F4919 /* APIResponseTypes */,
+				865D7A562BC6D5BC006F4919 /* DataTypes */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -168,6 +165,28 @@
 				863DCE352B39E77A00BF21BD /* RMSettingsViewController.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		865D7A562BC6D5BC006F4919 /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				863DCE242B39E5C300BF21BD /* RMLocation.swift */,
+				863DCE2A2B39E65300BF21BD /* RMCharacter.swift */,
+				863DCE2C2B39E65C00BF21BD /* RMEpisode.swift */,
+				865D7A4E2BC6AACF006F4919 /* RMOrigin.swift */,
+				865D7A502BC6AB09006F4919 /* RMSingleLocation.swift */,
+				865D7A522BC6ADD5006F4919 /* RMCharacterStatus.swift */,
+				865D7A542BC6AE07006F4919 /* RMCharacterGender.swift */,
+			);
+			path = DataTypes;
+			sourceTree = "<group>";
+		};
+		865D7A572BC6D5D7006F4919 /* APIResponseTypes */ = {
+			isa = PBXGroup;
+			children = (
+				865D7A582BC6D5F9006F4919 /* RMGetAllCharactersResponse.swift */,
+			);
+			path = APIResponseTypes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +276,7 @@
 				863DCE032B39AB3400BF21BD /* SceneDelegate.swift in Sources */,
 				865D7A4B2BC692C5006F4919 /* RMRequest.swift in Sources */,
 				863DCE322B39E74600BF21BD /* RMLocationViewController.swift in Sources */,
+				865D7A592BC6D5F9006F4919 /* RMGetAllCharactersResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +420,7 @@
 				DEVELOPMENT_TEAM = K693WY4Y5S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RickAndMorty/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -427,6 +448,7 @@
 				DEVELOPMENT_TEAM = K693WY4Y5S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RickAndMorty/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
