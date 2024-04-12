@@ -48,12 +48,12 @@ final class RMRequest {
         return string
     }
     
-    /// Computed & constructed API url
+    /// Computed & constructed API URL
     public var url: URL? {
         return URL(string: urlString)
     }
     
-    /// Desired http method
+    /// Desired HTTP method
     public let httpMethod = "GET"
     
     // MARK: - Public
