@@ -10,11 +10,11 @@ import UIKit
 /// Controller to show and search for Characters
 final class RMCharacterViewController: UIViewController, RMCharacterListViewDelegate {
     
-    //MARK: - Properties
+    // MARK: - Properties
     
     private let characterListView = RMCharacterListView()
     
-    //MARK: - View Lifecycle
+    // MARK: - View Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +25,7 @@ final class RMCharacterViewController: UIViewController, RMCharacterListViewDele
         setUpView()
     }
     
-    //MARK: - Private Methods
+    // MARK: - Private Methods
     
     private func setUpView() {
         characterListView.delegate = self
@@ -42,6 +42,7 @@ final class RMCharacterViewController: UIViewController, RMCharacterListViewDele
         // Open detail controller for that character
         let viewModel = RMCharacterDetailViewViewModel(character: character)
         let detailVC = RMCharacterDetailViewController(viewModel: viewModel)
+        detailVC.navigationItem.largeTitleDisplayMode = .never
         navigationController?.pushViewController(detailVC, animated: true)
     }
 }

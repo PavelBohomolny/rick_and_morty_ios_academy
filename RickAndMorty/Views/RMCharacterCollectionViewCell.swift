@@ -10,7 +10,7 @@ import UIKit
 /// Single cell for a character
 class RMCharacterCollectionViewCell: UICollectionViewCell {
    
-    //MARK: - Properties
+    // MARK: - Properties
     
     static let cellIdentifier = "RMCharacterCollectionViewCell"
     
@@ -41,7 +41,7 @@ class RMCharacterCollectionViewCell: UICollectionViewCell {
         return label
     }()
     
-    //MARK: - Initializers
+    // MARK: - Initializers
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -56,7 +56,7 @@ class RMCharacterCollectionViewCell: UICollectionViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    //MARK: - Private Methods
+    // MARK: - Private Methods
     
     private func addConstraints() {
         NSLayoutConstraint.activate([
@@ -86,7 +86,7 @@ class RMCharacterCollectionViewCell: UICollectionViewCell {
         contentView.layer.shadowOpacity = 0.3
     }
     
-    //MARK: - Public Methods
+    // MARK: - Public Methods
     
     override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
         super.traitCollectionDidChange(previousTraitCollection)

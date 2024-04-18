@@ -14,7 +14,7 @@ protocol RMCharacterListViewDelegate: AnyObject {
 /// View that handles showing list of characters, loader, etc.
 final class RMCharacterListView: UIView {
     
-    //MARK: - Properties
+    // MARK: - Properties
     
     public weak var delegate: RMCharacterListViewDelegate?
     
@@ -41,7 +41,7 @@ final class RMCharacterListView: UIView {
         return collectionView
     }()
     
-    //MARK: - Initializers
+    // MARK: - Initializers
     
     override init(frame: CGRect) {
         super.init(frame: frame)

@@ -10,11 +10,11 @@ import UIKit
 /// Controller to show info about single character
 final class RMCharacterDetailViewController: UIViewController {
     
-    //MARK: - Properties
+    // MARK: - Properties
     
     private let viewModel: RMCharacterDetailViewViewModel
 
-    //MARK: - Initializers
+    // MARK: - Initializers
     
     init(viewModel: RMCharacterDetailViewViewModel) {
         self.viewModel = viewModel
@@ -25,7 +25,8 @@ final class RMCharacterDetailViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
-    //MARK: - View Lifecycle
+    // MARK: - View Lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -9,13 +9,13 @@ import Foundation
 
 final class RMCharacterCollectionViewCellViewModel {
    
-    //MARK: - Properties
+    // MARK: - Properties
     
     public let characterName: String
     private let characterStatus: RMCharacterStatus
     private let characterImageUrl: URL?
     
-    //MARK: - Initializers
+    // MARK: - Initializers
     
     init(
         characterName: String,
