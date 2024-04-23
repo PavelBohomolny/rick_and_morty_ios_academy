@@ -36,6 +36,7 @@
 		865D7A692BCD7BF3006F4919 /* RMCharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D7A682BCD7BF3006F4919 /* RMCharacterDetailView.swift */; };
 		865D7A6B2BCD7C2F006F4919 /* RMCharacterDetailViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D7A6A2BCD7C2F006F4919 /* RMCharacterDetailViewViewModel.swift */; };
 		86B3EFD12BD264E600E78969 /* RMFooterLoadingCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3EFD02BD264E600E78969 /* RMFooterLoadingCollectionReusableView.swift */; };
+		86B3EFD32BD7BEBF00E78969 /* RMImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3EFD22BD7BEBF00E78969 /* RMImageLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		865D7A682BCD7BF3006F4919 /* RMCharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterDetailView.swift; sourceTree = "<group>"; };
 		865D7A6A2BCD7C2F006F4919 /* RMCharacterDetailViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterDetailViewViewModel.swift; sourceTree = "<group>"; };
 		86B3EFD02BD264E600E78969 /* RMFooterLoadingCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMFooterLoadingCollectionReusableView.swift; sourceTree = "<group>"; };
+		86B3EFD22BD7BEBF00E78969 /* RMImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMImageLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 		863DCE292B39E5E100BF21BD /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				86B3EFD22BD7BEBF00E78969 /* RMImageLoader.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				863DCE362B39E77A00BF21BD /* RMSettingsViewController.swift in Sources */,
 				865D7A622BC95EC6006F4919 /* RMCharacterCollectionViewCell.swift in Sources */,
 				863DCE302B39E73300BF21BD /* RMCharacterViewController.swift in Sources */,
+				86B3EFD32BD7BEBF00E78969 /* RMImageLoader.swift in Sources */,
 				863DCE012B39AB3400BF21BD /* AppDelegate.swift in Sources */,
 				863DCE2B2B39E65300BF21BD /* RMCharacter.swift in Sources */,
 				865D7A4D2BC695ED006F4919 /* RMEndpoint.swift in Sources */,
