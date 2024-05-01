@@ -21,6 +21,10 @@ final class RMCharacterDetailViewViewModel {
     
     public var sections: [SectionType] = []
     
+    public var episodes: [String] {
+        character.episode
+    }
+    
     // MARK: - Initializers
     
     init(character: RMCharacter) {
@@ -34,7 +38,7 @@ final class RMCharacterDetailViewViewModel {
             .information(viewModel: [
                 .init(type: .status, value: character.status.text),
                 .init(type: .gender, value: character.gender.rawValue),
-                .init(type: .type, value: character.species),
+                .init(type: .type, value: character.type),
                 .init(type: .species, value: character.species),
                 .init(type: .origin, value: character.origin.name),
                 .init(type: .location, value: character.location.name),

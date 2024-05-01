@@ -79,19 +79,19 @@ final class RMCharacterInfoCollectionViewCellViewModel {
             case .status:
                 return UIImage(systemName: "bell")
             case .gender:
-                return UIImage(systemName: "bell")
+                return UIImage(systemName: "person.crop.circle")
             case .type:
-                return UIImage(systemName: "bell")
+                return UIImage(systemName: "atom")
             case .species:
                 return UIImage(systemName: "bell")
             case .origin:
                 return UIImage(systemName: "bell")
             case .created:
-                return UIImage(systemName: "bell")
+                return UIImage(systemName: "calendar")
             case .location:
-                return UIImage(systemName: "bell")
+                return UIImage(systemName: "mappin.and.ellipse")
             case .episodeCount:
-                return UIImage(systemName: "bell")
+                return UIImage(systemName: "film")
             }
         }
         

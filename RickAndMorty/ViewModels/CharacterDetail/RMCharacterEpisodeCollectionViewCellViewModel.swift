@@ -36,7 +36,7 @@ final class RMCharacterEpisodeCollectionViewCellViewModel {
         self.episodeDataUrl = episodeDataUrl
     }
     
-    // MARK: - Public
+    // MARK: - Public Methods
     
     public func registerForData(_ block: @escaping (RMEpisodeDataRender) -> Void) {
         self.dataBlock = block

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		861F5D112BE26B0C00AE6115 /* RMEpisodeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861F5D102BE26B0C00AE6115 /* RMEpisodeDetailViewController.swift */; };
 		863DCE012B39AB3400BF21BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863DCE002B39AB3400BF21BD /* AppDelegate.swift */; };
 		863DCE032B39AB3400BF21BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863DCE022B39AB3400BF21BD /* SceneDelegate.swift */; };
 		863DCE052B39AB3400BF21BD /* RMTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863DCE042B39AB3400BF21BD /* RMTabBarViewController.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		861F5D102BE26B0C00AE6115 /* RMEpisodeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEpisodeDetailViewController.swift; sourceTree = "<group>"; };
 		863DCDFD2B39AB3400BF21BD /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		863DCE002B39AB3400BF21BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		863DCE022B39AB3400BF21BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				865D7A662BCD7B3C006F4919 /* RMCharacterDetailViewController.swift */,
+				861F5D102BE26B0C00AE6115 /* RMEpisodeDetailViewController.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -366,6 +369,7 @@
 				865D7A492BC692B7006F4919 /* RMService.swift in Sources */,
 				863DCE252B39E5C300BF21BD /* RMLocation.swift in Sources */,
 				863DCE032B39AB3400BF21BD /* SceneDelegate.swift in Sources */,
+				861F5D112BE26B0C00AE6115 /* RMEpisodeDetailViewController.swift in Sources */,
 				865D7A4B2BC692C5006F4919 /* RMRequest.swift in Sources */,
 				865D7A642BC9614C006F4919 /* RMCharacterCollectionViewCellViewModel.swift in Sources */,
 				863DCE322B39E74600BF21BD /* RMLocationViewController.swift in Sources */,
