@@ -119,7 +119,7 @@
 				863DCE1A2B39AF2E00BF21BD /* Resources */,
 				863DCE292B39E5E100BF21BD /* Managers */,
 				863DCE282B39E5D800BF21BD /* APIClient */,
-				863DCE272B39E5D000BF21BD /* ViewModel */,
+				863DCE272B39E5D000BF21BD /* ViewModels */,
 				863DCE262B39E5C900BF21BD /* Views */,
 				863DCE232B39E5B200BF21BD /* Models */,
 				863DCE142B39AEB600BF21BD /* Controllers */,
@@ -167,14 +167,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		863DCE272B39E5D000BF21BD /* ViewModel */ = {
+		863DCE272B39E5D000BF21BD /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
 				86884B9D2BDBD9B800456F3B /* CharacterDetail */,
 				865D7A5A2BC830DC006F4919 /* RMCharacterListViewViewModel.swift */,
 				865D7A632BC9614C006F4919 /* RMCharacterCollectionViewCellViewModel.swift */,
 			);
-			path = ViewModel;
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		863DCE282B39E5D800BF21BD /* APIClient */ = {
