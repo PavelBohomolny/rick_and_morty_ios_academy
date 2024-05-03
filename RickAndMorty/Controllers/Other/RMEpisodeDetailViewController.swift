@@ -12,12 +12,12 @@ final class RMEpisodeDetailViewController: UIViewController {
 
     // MARK: - Properties
     
-    private let url: URL?
+    private let viewModel: RMEpisodeDetailViewViewModel
     
     // MARK: - Initializers
     
     init(url: URL?) {
-        self.url = url
+        self.viewModel = .init(endpointUrl: url)
         super.init(nibName: nil, bundle: nil)
     }
     
