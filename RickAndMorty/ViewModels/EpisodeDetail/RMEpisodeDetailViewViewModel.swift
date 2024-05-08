@@ -16,6 +16,8 @@ class RMEpisodeDetailViewViewModel {
     // MARK: - Properties
     
     public  weak var delegate: RMEpisodeDetailViewViewModelDelegate?
+    
+    public private(set) var sections: [SectionType] = []
 
     private let endpointUrl: URL?
     
@@ -23,6 +25,11 @@ class RMEpisodeDetailViewViewModel {
         didSet {
             delegate?.didFetchEpisodeDetails()
         }
+    }
+    
+    enum SectionType {
+        case information(viewModel: [RMEpisodeInfoCollectionViewCellViewModel])
+        case characters(viewModel: [RMCharacterCollectionViewCellViewModel])
     }
     
     // MARK: - Initializers
